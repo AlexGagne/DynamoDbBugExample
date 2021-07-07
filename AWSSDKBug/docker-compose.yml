@@ -18,3 +18,5 @@ services:
       - "dynamodb-local"
     environment:
       AWS_DEVELOPMENTURL: 'http://localhost:8000/'
+      AWS_ACCESS_KEY_ID: 'FAKEACCESSKEY'
+      AWS_SECRET_ACCESS_KEY: 'FAKESECRETACCESSKEY'
